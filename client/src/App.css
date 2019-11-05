@@ -1,0 +1,29 @@
+html, body, p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0rem;
+}
+
+form > div {
+ padding: 1rem 0rem;
+}
+
+.result-container {
+  color: green;
+}
+
+.error-container {
+  color: red;
+}

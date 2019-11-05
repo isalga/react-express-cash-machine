@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`first load renders correctly 1`] = `
+<div
+  className="container"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <div>
+      <label>
+        Entry:
+        <input
+          name="entry"
+          type="text"
+        />
+      </label>
+    </div>
+    <div>
+      <input
+        type="submit"
+        value="Request"
+      />
+    </div>
+  </form>
+</div>
+`;
+
+exports[`renders correctly when submit 1`] = `
+<div
+  className="container"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <div>
+      <label>
+        Entry:
+        <input
+          name="entry"
+          type="text"
+        />
+      </label>
+    </div>
+    <div>
+      <input
+        type="submit"
+        value="Request"
+      />
+    </div>
+  </form>
+  <p>
+    processing...
+  </p>
+</div>
+`;
