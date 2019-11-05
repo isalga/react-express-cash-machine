@@ -49,8 +49,5 @@ exports[`renders correctly when submit 1`] = `
       />
     </div>
   </form>
-  <p>
-    processing...
-  </p>
 </div>
 `;
